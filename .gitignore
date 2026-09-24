@@ -1,0 +1,24 @@
+# LOCALIZMA MODIFICATION NOTICE: This file was modified from the LocalSend upstream source for the Localizma repository layout and tooling.
+# IDE
+.idea/
+.vscode/
+
+# Rust
+/target/
+
+# Build output
+/build/
+/build-*/
+
+# Local secrets
+/secrets/
+
+# OS
+.DS_Store
+
+# Qt / CMake local files
+*.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
